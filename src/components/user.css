@@ -1,0 +1,155 @@
+.userss{
+    display: flex;
+}
+.user-list{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    margin-top: 1rem;
+
+}
+.user{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    /* background-color: aqua; */
+    /* margin: 1rem; */
+}
+
+.right{
+    width: 45%;
+}
+.user-profile{
+    color: antiquewhite;
+    position: fixed;
+    margin: 0.5rem;
+    padding: 1rem;
+    width: 28rem;
+    margin-left:5rem;
+    margin-top: 3rem;
+    height: 88%;
+    background-color: rgb(17, 16, 16);
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+.ava{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    box-shadow: 0 0 10px rgb(63, 58, 58);
+    
+}
+.avat{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    
+   
+
+   
+}
+.user-details{
+    font-size: 2.5rem;
+}
+.h4{
+    font-weight: normal;
+    text-align: center;
+    font-size: 1.2rem;
+}
+h3{
+    font-weight: normal;
+}
+.bio{
+    margin-top: 2rem;
+    /* background-color: rgb(23, 26, 26); */
+    width: 60%;
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    text-align: center;
+
+}
+.details{
+    text-align: left;
+    /* margin-left: -0.5rem; */
+    margin-top: 1rem;
+}
+.det{
+    /* margin-top: 2rem; */
+    padding: 0.3rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+    text-align: center;
+    background-color: rgb(23, 26, 26);
+}
+@media screen and (max-width:1230px){
+   html{
+    font-size: 0.9rem;
+   }
+}   
+@media screen and (max-width:1150px){
+    .user-profile{
+        margin-left: -1rem;
+    }
+ } 
+ @media screen and (max-width:900px){
+    html{
+        font-size: 0.8rem;
+    }
+ } 
+ @media screen and (max-width:768px){
+    .userss{
+        flex-direction: column-reverse;
+    }
+    .user-list{
+        width: 100%;
+    }
+    .r{
+        width: 100%;
+        height: 100%;
+        
+        padding: 1rem;
+       
+        /* position: relative; */
+    }
+    .user-profile{
+        /* position: absolute; */
+        position: relative;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       
+       margin-left: 0.5rem;
+        width: 90vw;
+        height:40rem;
+        display: block;
+        margin-top: auto;
+    }
+    
+    .bio{
+        text-align: center;
+        /* background-color: aqua; */
+        margin: auto;
+        margin-top: 5rem;
+    }
+    .ava{
+        margin: auto;
+        margin-bottom: 3rem;
+    }
+    .details{
+        width: 50%;
+        margin: auto;
+        margin-top: 1rem;
+    }
+ } 
