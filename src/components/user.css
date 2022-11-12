@@ -32,7 +32,8 @@
     width: 28rem;
     margin-left:5rem;
     margin-top: 3rem;
-    height: 88%;
+    height: 35rem;
+    /* height: 88%; */
     background-color: rgb(17, 16, 16);
     border-radius: 2rem;
     display: flex;
@@ -81,7 +82,8 @@ h3{
 .details{
     text-align: left;
     /* margin-left: -0.5rem; */
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
+    width: 70%;
 }
 .det{
     /* margin-top: 2rem; */
